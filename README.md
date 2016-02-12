@@ -32,12 +32,17 @@
   > 19(2):144-166, 2009.  [http://dx.doi.org/10.3166/jancl.19.149-166]
 
 
-* *g3ibu* is the implementation of the calculus **Gbu** presented in
+* **g3ibu** is the implementation of the calculus **Gbu** presented in
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. A terminating
   > evaluation-driven variant of G3i. In D. Galmiche and
   > D. Larchey-Wendling, editors, TABLEAUX 2013, LNCS, volume 8123,
-  > pages 104-118. Springer-Verlag, 2013.
+  > pages 104-118. Springer-Verlag,
+  > 2013. [http://dx.doi.org/10.1007/978-3-642-40537-2_11]
+
+  **g3ibu** also implement the dual calculus **Rbu** for
+  intuitionistic unprovability which generates Kripke counter-models
+  for the unprovable sequents and their LaTeX rendering.
 
 
 * *g3ied* is the implementation of the proof-search procedure for the
