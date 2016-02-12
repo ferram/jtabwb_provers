@@ -1,7 +1,7 @@
 ##A collection of JTabWb provers
 
 
-###Provers for Classical Propositional Logic (cpl)
+###Classical Propositional Logic (cpl)
 
 * **clnat** is the implementation of the proof-search procedure for the
   natural deduction calculus for Classical Propositional Logic
@@ -21,7 +21,7 @@
 
 
 
-###Provers for Intuitionistic Propositional Logic (ipl)
+###Intuitionistic Propositional Logic (ipl)
 
 * **f3ni** is the implementation of the O(n log n)-space decision
   procedure for IPL based on the duplication-free tableau calculus of
@@ -108,7 +108,7 @@
 
 
 
-###Provers for S4 (s4)
+###S4 (s4)
 
 
 * **s4tab** is the implementation of the proof-search procedure for
