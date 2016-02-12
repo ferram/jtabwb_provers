@@ -26,8 +26,14 @@
 
 
 
-###Provers for Classical Propositional Logic (ipl)
+###Provers for Intuitionistic Propositional Logic (ipl)
 
+* **f3ni** is the implementation of the O(n log n)-space decision
+  procedure for IPL based on the duplication-free tableau calculus of
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. A Tableau Calculus for
+  >Propositional Intuitionistic Logic with a Refined Treatment of
+  >Nested Implications. Journal of Applied Non-Classical Logics,
+  >19(2):144-166, 2009.  [http://dx.doi.org/10.3233/FI-2009-178]
 
 
 
