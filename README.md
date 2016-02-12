@@ -3,7 +3,7 @@
 
 ###Provers for Classical Propositional Logic (cpl)
 
-* **clnat** is the implementation of the proof-search procedure for the
+* *clnat* is the implementation of the proof-search procedure for the
   natural deduction calculus for Classical Propositional Logic
   presented in
 
