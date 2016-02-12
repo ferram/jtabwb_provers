@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : s4_path_n-001
+% Status   : unprovable
+%------------------------
+(((((box(box p11)) | (box(box p12))) | (box(box p13))) | (box(box p15))) | ((((((((((((((dia((~p11) & (box p21))) | (dia((~p11) & (box p23)))) | false) | (false | false)) | (((dia((~p13) & (box p21))) | (dia((~p13) & (box p23)))) | false)) | (false | false)) | (((dia((~p15) & (box p21))) | (dia((~p15) & (box p23)))) | false)) | (false | false)) | (false | false)) | (false | ((dia((~p14) & (box p22))) | (dia((~p16) & (box p22)))))) | (false | false)) | (false | ((dia((~p14) & (box p24))) | (dia((~p16) & (box p24)))))) | (false | false)) | (false | ((dia((~p14) & (box p26))) | (dia((~p16) & (box p26))))))) | (dia((((dia(~p22)) | (dia(~p24))) | (dia(~p25))) | (dia(~p26))))
+%------------------------

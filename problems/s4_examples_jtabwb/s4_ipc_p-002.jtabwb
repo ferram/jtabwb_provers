@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : s4_ipc_p-002
+% Status   : provable
+%------------------------
+((box((box((box p1) -> ((box p1) & (box p2)))) -> false)) & (box((box((box p2) -> ((box p1) & (box p2)))) -> false))) -> false
+%------------------------

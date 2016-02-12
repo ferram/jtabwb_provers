@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : Nishimura formula
+% Status   : unprovable
+%------------------------
+(((p -> false)-> false)-> p)-> (p | (p-> false))
+%------------------------

@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : SYJ203+1.001 simple example tsint paper
+% Status   : provable
+%------------------------
+((p | (p -> q)) -> q) -> q
+%------------------------
