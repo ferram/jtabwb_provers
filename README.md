@@ -35,8 +35,11 @@
 
 
 * **g3iswiss** implements the proof-search procedure for the sequent
-  calculus G3i~\cite{TroSch:00} for $\IPL$ using Swiss
-  histories to avoid loops presented in \cite{Howe:97}.
+  calculus **G3i** for IPL using Swiss histories to avoid loops
+  presented in
+
+  > J.M. Howe. Two Loop Detection Mechanisms: A Comparision. In
+  > D. Galmiche, editor, TABLEAUX 1997, LNCS 1227, Springer, 1997.
 
 
 
@@ -53,12 +56,3 @@
   Termination is guaranteed via loop-checking.
 
 
-
-
-Bibliography
-------------
-
-
-* *[TS2000]* A. Troelstra and H. Schwichtenberg. Basic Proof Theory ,
-   vol.43 of Cambridge Tractsin Theoretical Computer Science, 2nd
-   edition, Cambridge University Press, 2000.
