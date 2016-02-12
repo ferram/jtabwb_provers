@@ -121,3 +121,12 @@
   Termination is guaranteed via loop-checking.
 
 
+
+
+## Prover execution
+
+  To execute prover **xxx.jar** type `java -jar xxx.jar`.
+
+  All the provers requires Java 1.8 or later.
+
+  
