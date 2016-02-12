@@ -9,10 +9,10 @@ Provers for Classical Propositional Logic (cpl)
   natural deduction calculus for Classical Propositional Logic
   presented in
 
->M. Ferrari and C. Fiorentini. Proof-search in natural deduction
->calculus for classical propositio- nal logic. In H. De Nivelle,
->editor, TABLEAUX 2015, LNCS, vol. 9323, pages 237–252. Springer
->International Publishing, 2015
+  >M. Ferrari and C. Fiorentini. Proof-search in natural deduction
+  >calculus for classical propositio- nal logic. In H. De Nivelle,
+  >editor, TABLEAUX 2015, LNCS, vol. 9323, pages 237–252. Springer
+  >International Publishing, 2015
 
   This procedure does not require backtracking nor
   loop-checking. **clnat** generates counter-models for the unprovable
