@@ -13,19 +13,17 @@
   >International Publishing, 2015
 
   This procedure does not require backtracking nor
-  loop-checking. **clnat** generates counter-models for the unprovable
+  loop-checking. *clnat* generates counter-models for the unprovable
   formulas.
 
-* **cplg3c** is a simple example of implementation of a prover
-  for Classical Propositional Logic based on the sequent calculus
-  G3c of
-
+* *g3c* is a simple example of implementation of a prover for
+  Classical Propositional Logic based on the sequent calculus **G3c**.
 
 
 
 ###Provers for Intuitionistic Propositional Logic (ipl)
 
-* **f3ni** is the implementation of the O(n log n)-space decision
+* *f3ni* is the implementation of the O(n log n)-space decision
   procedure for IPL based on the duplication-free tableau calculus of
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. A Tableau Calculus for
@@ -34,7 +32,26 @@
   > 19(2):144-166, 2009.  [http://dx.doi.org/10.3166/jancl.19.149-166]
 
 
-* **g3iswiss** implements the proof-search procedure for the sequent
+* *g3ibu* is the implementation of the calculus
+  *Gbu* presented in ~\cite{FerFioFio:2013tab}
+
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. A terminating
+  >  evaluation-driven variant of G3i. In D. Galmiche and
+  >  D. Larchey-Wendling, editors, TABLEAUX 2013, LNCS, volume 8123,
+  >  pages 104-118. Springer-Verlag, 2013.
+
+
+* *g3ied* is the implementation of the proof-search procedure for the
+  sequent calculus **G3i** using evaluations to avoid loop-checking
+  presented in
+
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. An Evaluation-Driven
+  >  Decision Procedure for G3i. ACM Transactions on Computational
+  >  Logic (TOCL), 6(1):8:1–8:37, 2015.
+
+
+
+* *g3iswiss* implements the proof-search procedure for the sequent
   calculus **G3i** for IPL using Swiss histories to avoid loops
   presented in
 
