@@ -33,7 +33,7 @@
 
 
 * *g3ibu* is the implementation of the calculus
-  *Gbu* presented in ~\cite{FerFioFio:2013tab}
+  *Gbu* presented in
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. A terminating
   >  evaluation-driven variant of G3i. In D. Galmiche and
