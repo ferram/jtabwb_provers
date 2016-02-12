@@ -45,16 +45,20 @@
   for the unprovable sequents and their LaTeX rendering.
 
 
-* *g3ied* is the implementation of the proof-search procedure for the
+* **g3ied** is the implementation of the proof-search procedure for the
   sequent calculus **G3i** using evaluations to avoid loop-checking
   presented in
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. An Evaluation-Driven
-  >  Decision Procedure for G3i. ACM Transactions on Computational
-  >  Logic (TOCL), 6(1):8:1–8:37, 2015.
+  > Decision Procedure for G3i. ACM Transactions on Computational
+  > Logic (TOCL), 6(1):8:1–8:37,
+  > 2015. [http://dx.doi.org/10.1145/2660770]
 
+  **g3ied** also implement the dual calculus **RJ** for intuitionistic
+  unprovability which generates Kripke counter-models for the
+  unprovable sequents and their LaTeX rendering.
 
-* *g3iswiss* implements the proof-search procedure for the sequent
+* **g3iswiss** implements the proof-search procedure for the sequent
   calculus **G3i** for IPL using Swiss histories to avoid loops
   presented in
 
@@ -62,21 +66,22 @@
   > D. Galmiche, editor, TABLEAUX 1997, LNCS 1227, Springer, 1997.
 
 
-* *gond* is the implementation of the goal-oriented proof-search
-  procedure based on the natural deduction calculus for IPL.
+* **gond** is the implementation of a goal-oriented proof-search
+  procedure for the natural deduction calculus for IPL.
 
 
-* *lsj* is the proof-search procedure for the sequent
+* **lsj** is the proof-search procedure for the sequent
   calculus **LSJ** of
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. Contraction-free Linear
   > Depth Sequent Calculi for Intuitionistic Propositional Logic with
   > the Subformula Property and Minimal Depth Counter-Models. Journal
-  > of Automated Reasoning, 51(2):129-149, 2013.
+  > of Automated Reasoning, 51(2):129-149,
+  > 2013. [http://dx.doi.org/10.1007/s10817-012-9252-7]
 
   **LSJ** is a contraction-free sequent calculus for IPL based on a
   non-standard notion of sequent; derivations of *LSJ* have linear
-  depth in the sequent to be proved.  *lsj* also implements the dual
+  depth in the sequent to be proved.  **lsj** also implements the dual
   calculus **RJ** for unprovability. It generates Kripke
   counter-models for the unprovable sequents and their LaTeX
   rendering.
