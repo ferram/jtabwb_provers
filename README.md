@@ -3,7 +3,7 @@
 
 ###Provers for Classical Propositional Logic (cpl)
 
-* *clnat* is the implementation of the proof-search procedure for the
+* **clnat** is the implementation of the proof-search procedure for the
   natural deduction calculus for Classical Propositional Logic
   presented in
 
@@ -13,17 +13,17 @@
   >International Publishing, 2015
 
   This procedure does not require backtracking nor
-  loop-checking. *clnat* generates counter-models for the unprovable
+  loop-checking. **clnat** generates counter-models for the unprovable
   formulas.
 
-* *g3c* is a simple example of implementation of a prover for
+* **g3c** is a simple example of implementation of a prover for
   Classical Propositional Logic based on the sequent calculus **G3c**.
 
 
 
 ###Provers for Intuitionistic Propositional Logic (ipl)
 
-* *f3ni* is the implementation of the O(n log n)-space decision
+* **f3ni** is the implementation of the O(n log n)-space decision
   procedure for IPL based on the duplication-free tableau calculus of
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. A Tableau Calculus for
@@ -35,9 +35,9 @@
 * *g3ibu* is the implementation of the calculus **Gbu** presented in
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. A terminating
-  >  evaluation-driven variant of G3i. In D. Galmiche and
-  >  D. Larchey-Wendling, editors, TABLEAUX 2013, LNCS, volume 8123,
-  >  pages 104-118. Springer-Verlag, 2013.
+  > evaluation-driven variant of G3i. In D. Galmiche and
+  > D. Larchey-Wendling, editors, TABLEAUX 2013, LNCS, volume 8123,
+  > pages 104-118. Springer-Verlag, 2013.
 
 
 * *g3ied* is the implementation of the proof-search procedure for the
@@ -60,6 +60,38 @@
 * *gond* is the implementation of the goal-oriented proof-search
   procedure based on the natural deduction calculus for IPL.
 
+
+* *lsj* is the proof-search procedure for the sequent
+  calculus **LSJ** of
+
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. Contraction-free Linear
+  > Depth Sequent Calculi for Intuitionistic Propositional Logic with
+  > the Subformula Property and Minimal Depth Counter-Models. Journal
+  > of Automated Reasoning, 51(2):129-149, 2013.
+
+  **LSJ** is a contraction-free sequent calculus for IPL based on a
+  non-standard notion of sequent; derivations of *LSJ* have linear
+  depth in the sequent to be proved.  *lsj* also implements the dual
+  calculus **RJ** for unprovability. It generates Kripke
+  counter-models for the unprovable sequents and their LaTeX
+  rendering.
+
+* *jfcube* implements the basic version of the *FCube* prover
+  described in
+
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. FCube: An Efficient
+  > Prover for Intuitionistic Propositional Logic. In C. G. Fermuller
+  > and A. Voronkov, editors, Logic for Programming, Artificial
+  > Intelligence, and Reasoning, LPAR-17, volume 6397, pages
+  > 294-301. Springer, 2010.
+
+  It is based on a tableau calculus and it exploits some of the
+  optimization techniques discussed in
+
+
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. Simplification Rules
+  for Intuitionistic Propositional Tableaux. ACM Transactions on
+  Computational Logic (TOCL), 13(2), 2012.
 
 
 
