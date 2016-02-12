@@ -86,7 +86,7 @@
   counter-models for the unprovable sequents and their LaTeX
   rendering.
 
-* *jfcube* implements the basic version of the *FCube* prover
+* **jfcube** implements the basic version of the *FCube* prover
   described in
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. FCube: An Efficient
@@ -94,14 +94,16 @@
   > and A. Voronkov, editors, Logic for Programming, Artificial
   > Intelligence, and Reasoning, LPAR-17, volume 6397, pages
   > 294-301. Springer, 2010.
+  > [http://dx.doi.org/10.1007/978-3-642-16242-8_21]
 
   It is based on a tableau calculus and it exploits some of the
   optimization techniques discussed in
 
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. Simplification Rules
-  for Intuitionistic Propositional Tableaux. ACM Transactions on
-  Computational Logic (TOCL), 13(2), 2012.
+  > for Intuitionistic Propositional Tableaux. ACM Transactions on
+  > Computational Logic (TOCL), 13(2),
+  > 2012. [http://dl.acm.org/citation.cfm?doid=2159531.2159536]
 
 
 
