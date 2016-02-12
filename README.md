@@ -32,8 +32,7 @@
   > 19(2):144-166, 2009.  [http://dx.doi.org/10.3166/jancl.19.149-166]
 
 
-* *g3ibu* is the implementation of the calculus
-  *Gbu* presented in
+* *g3ibu* is the implementation of the calculus **Gbu** presented in
 
   > M. Ferrari, C. Fiorentini, and G. Fiorino. A terminating
   >  evaluation-driven variant of G3i. In D. Galmiche and
