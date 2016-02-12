@@ -49,13 +49,18 @@
   >  Logic (TOCL), 6(1):8:1–8:37, 2015.
 
 
-
 * *g3iswiss* implements the proof-search procedure for the sequent
   calculus **G3i** for IPL using Swiss histories to avoid loops
   presented in
 
   > J.M. Howe. Two Loop Detection Mechanisms: A Comparision. In
   > D. Galmiche, editor, TABLEAUX 1997, LNCS 1227, Springer, 1997.
+
+
+* *gond* is the implementation of the goal-oriented proof-search
+  procedure based on the natural deduction calculus for IPL.
+
+
 
 
 
