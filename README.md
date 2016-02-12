@@ -1,5 +1,5 @@
-A collection of JTabWb provers
-------------------------------
+#A collection of JTabWb provers
+
 
 ##Provers for Classical Propositional Logic (cpl)
 
