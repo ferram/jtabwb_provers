@@ -20,9 +20,6 @@
   for Classical Propositional Logic based on the sequent calculus
   G3c of
 
-  > A. Troelstra and H. Schwichtenberg. Basic Proof Theory , vol.43 of
-  > Cambridge Tractsin Theoretical Computer Science, 2nd edition,
-  > Cambridge University Press, 2000.
 
 
 
@@ -37,6 +34,9 @@
   > 19(2):144-166, 2009.  [http://dx.doi.org/10.3166/jancl.19.149-166]
 
 
+* **g3iswiss** implements the proof-search procedure for the sequent
+  calculus G3i~\cite{TroSch:00} for $\IPL$ using Swiss
+  histories to avoid loops presented in \cite{Howe:97}.
 
 
 
@@ -51,3 +51,14 @@
   >  R. Hänle and J. Posegga, Eds., LNCS 918, Springer-Verlag, 1995.
 
   Termination is guaranteed via loop-checking.
+
+
+
+
+Bibliography
+------------
+
+
+* *[TS2000]* A. Troelstra and H. Schwichtenberg. Basic Proof Theory ,
+   vol.43 of Cambridge Tractsin Theoretical Computer Science, 2nd
+   edition, Cambridge University Press, 2000.
