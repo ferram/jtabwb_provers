@@ -1,7 +1,7 @@
-#A collection of JTabWb provers
+##A collection of JTabWb provers
 
 
-##Provers for Classical Propositional Logic (cpl)
+###Provers for Classical Propositional Logic (cpl)
 
 
 * **clnat** is the implementation of the proof-search procedure for the
