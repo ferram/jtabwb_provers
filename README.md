@@ -1,6 +1,15 @@
 ##A collection of JTabWb provers
 
 
+## Prover execution
+
+  To execute prover **xxx.jar** type `java -jar xxx.jar`, use the `-h`
+  option for a detailed description of available options.
+
+  All the provers requires Java 1.8 or later.
+
+
+
 ###Classical Propositional Logic (cpl)
 
 * **clnat** is the implementation of the proof-search procedure for the
@@ -122,12 +131,5 @@
 
 
 
-
-## Prover execution
-
-  To execute prover **xxx.jar** type `java -jar xxx.jar`, use the `-h`
-  option for a detailed description of available options.
-
-  All the provers requires Java 1.8 or later.
 
   
