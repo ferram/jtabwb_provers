@@ -125,8 +125,8 @@
 
 ## Prover execution
 
-  To execute prover **xxx.jar** type `java -jar xxx.jar`, use `-h`
-  option for a detailed description of prover options.
+  To execute prover **xxx.jar** type `java -jar xxx.jar`, use the `-h`
+  option for a detailed description of available options.
 
   All the provers requires Java 1.8 or later.
 
