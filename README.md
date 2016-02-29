@@ -54,7 +54,7 @@
   > Logic (TOCL), 6(1):8:1–8:37,
   > 2015. [http://dx.doi.org/10.1145/2660770]
 
-  **g3ied** also implement the dual calculus **RJ** for intuitionistic
+  **rg3ied** implement the dual calculus **RJ** for intuitionistic
   unprovability which generates Kripke counter-models for the
   unprovable sequents and their LaTeX rendering.
 
@@ -125,7 +125,8 @@
 
 ## Prover execution
 
-  To execute prover **xxx.jar** type `java -jar xxx.jar`.
+  To execute prover **xxx.jar** type `java -jar xxx.jar`, use `-h`
+  option for a detailed description of prover options.
 
   All the provers requires Java 1.8 or later.
 
