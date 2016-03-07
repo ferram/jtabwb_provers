@@ -3,11 +3,11 @@ package cpl.g3c.launcher;
 import java.util.LinkedList;
 
 import jtabwb.launcher.InitialGoalBuilderException;
-import jtabwb.launcher.ProblemDescription;
 import jtabwb.launcher._InitialGoalBuilder;
 import jtabwb.util.ImplementationError;
 import jtabwbx.problems.ILTPProblem;
 import jtabwbx.problems.JTabWbSimpleProblem;
+import jtabwbx.problems.ProblemDescription;
 import jtabwbx.prop.formula.Formula;
 import jtabwbx.prop.formula.FormulaFactory;
 import jtabwbx.prop.formula.SequentOnArray;

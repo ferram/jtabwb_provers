@@ -4,10 +4,10 @@ import cpl.g3c.tp.Prover;
 import jtabwb.engine._AbstractGoal;
 import jtabwb.engine._Prover;
 import jtabwb.launcher.Launcher.LaunchConfiguration;
-import jtabwb.launcher.ProblemDescription;
 import jtabwb.launcher._ProblemReader;
 import jtabwb.launcher._SingleExecutionConfigurator;
 import jtabwb.util.ImplementationError;
+import jtabwbx.problems.ProblemDescription;
 import jtabwbx.prop.formula.FormulaFactory;
 
 class SingelExecutionConfigurator implements _SingleExecutionConfigurator {

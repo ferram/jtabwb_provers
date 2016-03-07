@@ -5,13 +5,13 @@ import s4.s4tab.nodeset.Sign;
 import s4.s4tab.nodeset.TabS4FormulaFactory;
 import jtabwb.engine._AbstractGoal;
 import jtabwb.launcher.InitialGoalBuilderException;
-import jtabwb.launcher.ProblemDescription;
 import jtabwb.launcher._InitialGoalBuilder;
 import jtabwbx.modal.btformula.BTModalFormula;
 import jtabwbx.modal.btformula.BTModalFormulaFactory;
 import jtabwbx.modal.formula.ModalFormula;
 import jtabwbx.modal.parser.ModalFormulaParseException;
 import jtabwbx.modal.parser.ModalFormulaParser;
+import jtabwbx.problems.ProblemDescription;
 
 /**
  * Initial node set builder for S4Tab.
