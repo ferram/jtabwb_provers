@@ -6,7 +6,9 @@
   To execute prover **xxx.jar** type `java -jar xxx.jar`, use the `-h`
   option for a detailed description of available options.
 
-  All the provers requires Java 1.8 or later.
+  All the provers requires Java 1.8 or later. A collection of problems
+  is available at
+  [github.com/ferram/jtabwb_problems](https://github.com/ferram/jtabwb_problems).
 
 
 
