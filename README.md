@@ -75,7 +75,7 @@
   > D. Galmiche, editor, TABLEAUX 1997, LNCS 1227, Springer, 1997.
 
 
-* **gond** is the implementation of a goal-oriented proof-search
+* **nbu** is the implementation of a goal-oriented proof-search
   procedure for the natural deduction calculus for IPL.
 
 
