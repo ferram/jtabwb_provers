@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : s4_t4p_n-001
-% Status   : unprovable
-%------------------------
-((((dia(~((box(~p1)) -> (box(box(~p1)))))) | (box(dia(box p0)))) | (box((~(box p1)) -> (box(~(box p1)))))) | (((box((dia(p1 & (dia(~p1)))) | p1)) & ((dia(box p1)) & (~p1))) | (dia(((box((dia(p1 & (dia(~p1)))) | p1)) & ((dia(box p1)) & (~p1))) | (dia(((box((dia(p1 & (dia(~p1)))) | p1)) & ((dia(box p1)) & (~p1))) | (dia(((box(dia p0)) & (box((~p0) | (box p3)))) | (dia(((dia(box(dia p0))) & p0) & (dia((~p0) | (box p3))))))))))))) | (dia p4)
-%------------------------

@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : s4_grz_p-001
-% Status   : provable
-%------------------------
-(((box((box((box(p2 -> (box p2))) -> p2)) -> p2)) & true) & ((box((box((((box(p2 -> (box p2))) -> p2) & ((box((box(p2 -> (box p2))) -> p2)) -> (box(box((box(p2 -> (box p2))) -> p2))))) -> (box(((box(p2 -> (box p2))) -> p2) & ((box((box(p2 -> (box p2))) -> p2)) -> (box(box((box(p2 -> (box p2))) -> p2)))))))) -> (((box(p2 -> (box p2))) -> p2) & ((box((box(p2 -> (box p2))) -> p2)) -> (box(box((box(p2 -> (box p2))) -> p2))))))) -> (((box(p2 -> (box p2))) -> p2) & ((box((box(p2 -> (box p2))) -> p2)) -> (box(box((box(p2 -> (box p2))) -> p2))))))) -> (((((box((box(p1 -> (box p1))) -> p1)) -> (box p1)) | (((box((box(p2 -> (box p2))) -> p2)) -> (box p2)) & (~(box(dia p0))))) | ((box((box(p3 -> (box p3))) -> p3)) -> (box p3))) | (((box((box(p2 -> (box p2))) -> p2)) -> (box p2)) & (~(dia(~((box(dia p0)) | p1))))))
-%------------------------

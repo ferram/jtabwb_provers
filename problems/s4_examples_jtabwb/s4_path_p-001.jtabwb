@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : s4_path_p-001
-% Status   : provable
-%------------------------
-(((((box(box p11)) | (box(box p12))) | (box(box p13))) | (box(box p15))) | ((((((false | false) | (false | false)) | (false | false)) | (false | false)) | (false | false)) | (false | false))) | (dia((((dia(~p12)) | (dia(~p14))) | (dia(~p12))) | (dia(~p16))))
-%------------------------

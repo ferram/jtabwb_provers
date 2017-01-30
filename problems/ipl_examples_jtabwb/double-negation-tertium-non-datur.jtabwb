@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : double-negation-tertium-non-datur
-% Status   : provable
-%------------------------
-~(~(p | ~p))
-%------------------------
