@@ -65,7 +65,7 @@
   > Logic (TOCL), 6(1):8:1–8:37,
   > 2015. [http://dx.doi.org/10.1145/2660770]
 
-  **rg3ied** implement the dual calculus **RJ** for intuitionistic
+  **rg3ied** implements the dual calculus **RJ** for intuitionistic
   unprovability which generates Kripke counter-models for the
   unprovable sequents and their LaTeX rendering.
 
