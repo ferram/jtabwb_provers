@@ -77,25 +77,6 @@
   > D. Galmiche, editor, TABLEAUX 1997, LNCS 1227, Springer, 1997.
 
 
-* **nbu** is the implementation of a goal-oriented proof-search
-  procedure for the natural deduction calculus for IPL.
-
-
-* **lsj** is the proof-search procedure for the sequent
-  calculus **LSJ** of
-
-  > M. Ferrari, C. Fiorentini, and G. Fiorino. Contraction-free Linear
-  > Depth Sequent Calculi for Intuitionistic Propositional Logic with
-  > the Subformula Property and Minimal Depth Counter-Models. Journal
-  > of Automated Reasoning, 51(2):129-149,
-  > 2013. [http://dx.doi.org/10.1007/s10817-012-9252-7]
-
-  **LSJ** is a contraction-free sequent calculus for IPL based on a
-  non-standard notion of sequent; derivations of *LSJ* have linear
-  depth in the sequent to be proved.  **lsj** also implements the dual
-  calculus **RJ** for unprovability. It generates Kripke
-  counter-models for the unprovable sequents and their LaTeX
-  rendering.
 
 * **jfcube** implements the basic version of the *FCube* prover
   described in
@@ -115,6 +96,28 @@
   > for Intuitionistic Propositional Tableaux. ACM Transactions on
   > Computational Logic (TOCL), 13(2),
   > 2012. [http://dl.acm.org/citation.cfm?doid=2159531.2159536]
+
+
+
+* **lsj** is the proof-search procedure for the sequent
+  calculus **LSJ** of
+
+  > M. Ferrari, C. Fiorentini, and G. Fiorino. Contraction-free Linear
+  > Depth Sequent Calculi for Intuitionistic Propositional Logic with
+  > the Subformula Property and Minimal Depth Counter-Models. Journal
+  > of Automated Reasoning, 51(2):129-149,
+  > 2013. [http://dx.doi.org/10.1007/s10817-012-9252-7]
+
+  **LSJ** is a contraction-free sequent calculus for IPL based on a
+  non-standard notion of sequent; derivations of *LSJ* have linear
+  depth in the sequent to be proved.  **lsj** also implements the dual
+  calculus **RJ** for unprovability. It generates Kripke
+  counter-models for the unprovable sequents and their LaTeX
+  rendering.
+
+
+* **nbu** is the implementation of a goal-oriented proof-search
+  procedure for the natural deduction calculus for IPL.
 
 
 
