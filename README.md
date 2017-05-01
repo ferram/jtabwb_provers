@@ -32,7 +32,7 @@
 
 
 
-##Intuitionistic Propositional Logic (ipl)
+## Intuitionistic Propositional Logic (ipl)
 
 * **f3ni** is the implementation of the O(n log n)-space decision
   procedure for IPL based on the duplication-free tableau calculus of
@@ -122,7 +122,7 @@
 
 
 
-##S4 (s4)
+## S4 (s4)
 
 
 * **s4tab** is the implementation of the proof-search procedure for
