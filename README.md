@@ -1,4 +1,4 @@
-#A collection of JTabWb provers
+# A collection of JTabWb provers
 
 
 ## Prover execution
@@ -12,7 +12,7 @@
 
 
 
-##Classical Propositional Logic (cpl)
+## Classical Propositional Logic (cpl)
 
 * **clnat** is the implementation of the proof-search procedure for the
   natural deduction calculus for Classical Propositional Logic
