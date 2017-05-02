@@ -1,6 +1,8 @@
-## Recently added
+## Recently added (Tableaux 2017)
 
-### frj - a forward prover for intuitionistic unprovability  [ipl_frj](https://github.com/ferram/jtabwb_provers/tree/master/ipl_frj)
+### frj - a forward prover for intuitionistic unprovability
+
+[ipl_frj](https://github.com/ferram/jtabwb_provers/tree/master/ipl_frj)
 
 
 # A collection of JTabWb provers
