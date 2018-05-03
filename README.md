@@ -41,6 +41,10 @@
 
 ## Intuitionistic Propositional Logic (ipl)
 
+* **frj** is the implementation of a forward calculus FRJ(G) for
+  Intuitionistic unprovability.
+
+
 * **f3ni** is the implementation of the O(n log n)-space decision
   procedure for IPL based on the duplication-free tableau calculus of
 
