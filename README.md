@@ -1,4 +1,4 @@
-## Recently added (Tableaux 2017)
+## Recently added
 
 ### frj - a forward prover for intuitionistic unprovability
 
@@ -42,7 +42,7 @@
 ## Intuitionistic Propositional Logic (ipl)
 
 * **frj** is the implementation of the forward calculus FRJ(G) for
-  Intuitionistic unprovability initially described in
+  Intuitionistic unprovability originally described in
 
   > M. Ferrari and C. Fiorentini. A Forward Unprovability Calculus for
   > Intuitionistic Propositional Logic. In R. A. Schmidt and
