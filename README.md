@@ -44,7 +44,7 @@
 * **frj** is the implementation of the forward calculus FRJ(G) for
   Intuitionistic unprovability originally described in
 
-  > M. Ferrari and C. Fiorentini. A Forward Unprovability Calculus for
+  > C. Fiorentini and M. Ferrari. A Forward Unprovability Calculus for
   > Intuitionistic Propositional Logic. In R. A. Schmidt and
   > C. Nalon, editors, *TABLEAUX 2017*, LNCS, vol. 10501, pages
   > 114–130. Springer International Publishing, 2017
