@@ -1,0 +1,30 @@
+templateMakefile(name) ::= <<
+NAME=<name>
+
+generated=generated-sequents-${NAME}
+model=model-${NAME}
+proof=proof-${NAME}
+
+all:generated model proof 
+
+generated:
+<\t>@echo -n -- Compiling LaTeX of generated sequents...
+	@pdflatex -halt-on-error ${generated}.tex > /dev/null
+	@echo " output in [${generated}.pdf]"
+
+model:
+	  @echo -n -- Generating .png of model
+	  @dot ${model}.gv -Tpng -o ${model}.png > /dev/null
+	  @echo " output in [${model}.png]"
+
+
+proof:
+	  @echo -n -- Compiling LaTeX of generated proof...
+	  @pdflatex -halt-on-error ${proof}.tex > /dev/null || (echo "\nERROR: [pdflatex ${proof}.tex] FAILED"; exit 1)
+	  @echo " output in [${proof}.pdf]"
+
+clean:
+	  rm -f ${generated}.{ps,pdf,log,aux,out,dvi,bbl,blg}
+	  rm -f ${proof}.{ps,pdf,log,aux,out,dvi,bbl,blg}
+	  rm -f ${model}.png
+>>
