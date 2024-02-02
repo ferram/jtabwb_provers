@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : isl_simple_unprov_paperExample
+% Status   : unprovable
+%------------------------
+( (p -> q) & # s & ##~p &  ###~q) -> (~(p & ~s) | ( ~~q -> #(~p | #~~p)))
+
