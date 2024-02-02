@@ -11,7 +11,7 @@
   The prover also provide an implementatio of the refutation calculus
   **Rbu** for iSL.
 
-[gbuSL](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbu)
+  [gbuSL](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbu)
 
 
 # A collection of JTabWb provers
