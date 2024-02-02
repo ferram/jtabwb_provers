@@ -2,7 +2,7 @@
 
 ## [isl_gbu](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbu)
 
-* **\gbuSL** is the implementation of the calculus for Intuitionistic
+* **gbuSL** is the implementation of the calculus for Intuitionistic
   Strong Löb iSL presented in
 
   > C. Fiorentini, M. Ferrari. A terminating sequent calculus for
