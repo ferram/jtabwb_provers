@@ -1,8 +1,9 @@
 ## Recently added
 
-### frj - a forward prover for intuitionistic unprovability
+### **gbuSL** - implementation of the calculus for Intuitionistic
+    Strong Löb iSL presented in
 
-[ipl_frj](https://github.com/ferram/jtabwb_provers/tree/master/ipl_frj)
+[gbuSL](https://github.com/ferram/jtabwb_provers/tree/master/gbuSL)
 
 
 # A collection of JTabWb provers
@@ -140,6 +141,16 @@
   procedure for the natural deduction calculus for IPL.
 
 
+## Intuitionistic Strong Löb Logic (gbuSL)
+
+* **gbuSL** is the implementation of the calculus for Intuitionistic
+    Strong Löb iSL presented in
+
+  > C. Fiorentini, M. Ferrari. A terminating sequent calculus for
+  > Intuitionistic Strong Löb. Submitted to IJCAR 2024.
+
+  The prover also provide an implementatio of the refutation calculus
+  **Rbu** for iSL.
 
 
 ## S4 (s4)
