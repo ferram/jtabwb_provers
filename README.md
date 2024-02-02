@@ -147,16 +147,16 @@
   procedure for the natural deduction calculus for IPL.
 
 
-## Intuitionistic Strong Löb Logic (gbuSL)
+## Intuitionistic Strong Löb Logic (iSL)
 
 * **gbuSL** is the implementation of the calculus for Intuitionistic
-    Strong Löb iSL presented in
+    Strong Löb **iSL** presented in
 
   > C. Fiorentini, M. Ferrari. A terminating sequent calculus for
   > Intuitionistic Strong Löb. Submitted to IJCAR 2024.
 
   The prover also provide an implementatio of the refutation calculus
-  **Rbu** for iSL.
+  **Rbu** for **iSL**.
 
 
 ## S4 (s4)
