@@ -1,6 +1,6 @@
 # Recently added
 
-## **gbuSL**
+## [gbuSL](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbu)
 
 * **gbuSL** is the implementation of the calculus for Intuitionistic
   Strong Löb iSL presented in
