@@ -9,7 +9,7 @@
   > Intuitionistic Strong Löb. Submitted to IJCAR 2024.
 
   The prover also provide an implementatio of the refutation calculus
-  **Rbu** for iSL.
+  **Rbu** for **iSL**.
 
 
 # A collection of JTabWb provers
