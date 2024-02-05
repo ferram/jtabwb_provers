@@ -30,7 +30,7 @@ java -jar gbuSL.jar -h
 
 # Formula syntax
 
-The input formula must be written in a text file. A formula F is specified by the following syntax:
+A formula F is specified by the following syntax:
 
 ```
 F := atom        // prop. variable
