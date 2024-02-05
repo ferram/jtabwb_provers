@@ -8,7 +8,7 @@ java -jar gbuSL.jar  file           ## the file must specify the formula in the 
 java -jar gbuSL.jar  -r plain file  ## the file must specify the formula in one single line
 ```
 
-the examples directory contains some problems in the JTabWb format.
+the **examples** directory contains some problems in the JTabWb format.
 To exec proof search with the **RbuSL** calulus add the **-p rbuSL**
 option. Example:
 
