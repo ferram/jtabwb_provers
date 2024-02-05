@@ -3,7 +3,7 @@
 To exec proofsearch with the **GbuSL** prover:
 
 ```
-java -jar gbuSL.jar -i              ## with -i optipon read the formula from standard input
+java -jar gbuSL.jar -i              ## -i option to read the formula from standard input
 java -jar gbuSL.jar  file           ## the file must specify the formula in the JTabWb format
 java -jar gbuSL.jar  -r plain file  ## the file must specify the formula in one single line
 ```
