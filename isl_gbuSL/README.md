@@ -21,6 +21,8 @@ To generate the latex of proofsearch trees add the **--latex-ctrees** option. Ru
 ```
 java -jar gbuSL.jar -h
 ```
+for help.
+
 
 
 
