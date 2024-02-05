@@ -1,6 +1,6 @@
 # Usage examples
 
-To exec proofsearch with the **GbuSL** prover:
+To exec proof search with the **GbuSL** prover:
 
 ```
 java -jar gbuSL.jar -i              ## use the -i option to read the formula from standard input
@@ -9,14 +9,14 @@ java -jar gbuSL.jar  -r plain file  ## the file must specify the formula in one 
 ```
 
 the examples directory contains some problems in the JTabWb format.
-To exec proofsearch with the **RbuSL** calulus add the **-p rbuSL**
+To exec proof search with the **RbuSL** calulus add the **-p rbuSL**
 option. Example:
 
 ```
 java -jar gbuSL.jar -p rbuSL examples/isl_simple_unprov_paperExample.jtabwb
 ```
 
-To generate the latex of proofsearch trees add the **--latex-ctrees** option.
+To generate the latex of proof search trees add the **--latex-ctrees** option.
 
 To print the usage help:
 
