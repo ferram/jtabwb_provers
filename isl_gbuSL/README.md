@@ -3,14 +3,14 @@
 To exec proofsearch with the **GbuSL** prover:
 
 ```
-java -jar gbuSL.jar -i              ## -i option to read the formula from standard input
+java -jar gbuSL.jar -i              ## use the -i option to read the formula from standard input
 java -jar gbuSL.jar  file           ## the file must specify the formula in the JTabWb format
 java -jar gbuSL.jar  -r plain file  ## the file must specify the formula in one single line
 ```
 
 the examples directory contains some problems in the JTabWb format.
 To exec proofsearch with the **RbuSL** calulus add the **-p rbuSL**
-option. Exmaple:
+option. Example:
 
 ```
 java -jar gbuSL.jar -p rbuSL examples/isl_simple_unprov_paperExample.jtabwb
