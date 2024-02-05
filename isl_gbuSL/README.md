@@ -16,12 +16,14 @@ option. Exmaple:
 java -jar gbuSL.jar -p rbuSL examples/isl_simple_unprov_paperExample.jtabwb
 ```
 
-To generate the latex of proofsearch trees add the **--latex-ctrees** option. Run
+To generate the latex of proofsearch trees add the **--latex-ctrees** option.
+
+To print the usage help:
 
 ```
 java -jar gbuSL.jar -h
 ```
-for help.
+
 
 
 
