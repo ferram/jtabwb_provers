@@ -1,5 +1,5 @@
 %------------------------
-% Formula  : box_p_implies_box_box_p
+% Formula  : isl_provable_box_p_implies_box_box_p
 % Status   : provable
 %------------------------
 #p -> ##p

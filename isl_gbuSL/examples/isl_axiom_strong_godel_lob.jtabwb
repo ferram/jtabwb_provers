@@ -1,5 +1,5 @@
 %------------------------
-% Formula  : goedel_lob_axiom
+% Formula  : isl_axiom_goedel_lob
 % Status   : provable
 %------------------------
 (#a -> a) -> a

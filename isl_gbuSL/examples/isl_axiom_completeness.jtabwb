@@ -1,6 +1,6 @@
 %------------------------
-% Formula  : goedel_lob_axiom
+% Formula  : isl_axiom_completeness
 % Status   : provable
 %------------------------
-#(#a -> a) -> # a
+a -> #a
 %------------------------
