@@ -5,8 +5,9 @@
 * **gbuSL** is the implementation of the calculus for Intuitionistic
   Strong Löb **iSL** presented in
 
-  > C. Fiorentini, M. Ferrari. A terminating sequent calculus for
-  > Intuitionistic Strong Löb. IJCAR 2024.
+  > C. Fiorentini, M. Ferrari. A Terminating Sequent Calculus for
+  > Intuitionistic Strong Löb Logic with the Subformula
+  > Property. IJCAR 2024.
 
   The prover also provide an implementation of the refutation calculus
   **rbuSL** for **iSL**.
@@ -152,8 +153,9 @@
 * **gbuSL** is the implementation of the calculus for Intuitionistic
     Strong Löb **iSL** presented in
 
-  > C. Fiorentini, M. Ferrari. A terminating sequent calculus for
-  > Intuitionistic Strong Löb. IJCAR 2024.
+  > C. Fiorentini, M. Ferrari. A Terminating Sequent Calculus for
+  > Intuitionistic Strong Löb Logic with the Subformula
+  > Property. IJCAR 2024.
 
   The prover also provide an implementatio of the refutation calculus
   **Rbu** for **iSL**.
