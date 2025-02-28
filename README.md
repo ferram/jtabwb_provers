@@ -2,21 +2,12 @@
 
 ## [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
 
-* **gwcref** is the implementation of a calculus for the Gödel
+ **gwcref** is the implementation of a calculus for the Gödel
   modal logic over witnessed crisp models **GWc**.
 
 
 # A collection of JTabWb provers
 
-
-## Prover execution
-
-  To execute prover **xxx.jar** type `java -jar xxx.jar`, use the `-h`
-  option for a detailed description of available options.
-
-  All the provers requires Java 1.8 or later. A collection of problems
-  is available at
-  [github.com/ferram/jtabwb_problems](https://github.com/ferram/jtabwb_problems).
 
 
 
