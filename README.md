@@ -1,16 +1,9 @@
 # Recently added
 
-## [isl_gbuSL](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbuSL)
+## [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
 
-* **gbuSL** is the implementation of the calculus for Intuitionistic
-  Strong Löb **iSL** presented in
-
-  > C. Fiorentini, M. Ferrari. A Terminating Sequent Calculus for
-  > Intuitionistic Strong Löb Logic with the Subformula
-  > Property. IJCAR 2024.
-
-  The prover also provide an implementation of the refutation calculus
-  **rbuSL** for **iSL**.
+* **gwcref** is the implementation of a calculus for the Gödel
+  modal logic over witnessed crisp models **GWc**.
 
 
 # A collection of JTabWb provers
@@ -154,10 +147,12 @@
     Strong Löb **iSL** presented in
 
   > C. Fiorentini, M. Ferrari. A Terminating Sequent Calculus for
-  > Intuitionistic Strong Löb Logic with the Subformula
-  > Property. IJCAR 2024.
+  > Intuitionistic Strong Löb Logic with the Subformula Property. In
+  > C. Benzmüller, M. J. H. Heule, and R. A. Schmidt, editors, IJCAR
+  > 2024, volume 14740 of LNCS, 24–42, , Springer, 2024. DOI:
+  > [http://dx.doi.org/10.1007/978-3-031-63501-4_2]
 
-  The prover also provide an implementatio of the refutation calculus
+  The prover also provide an implementation of the refutation calculus
   **Rbu** for **iSL**.
 
 
