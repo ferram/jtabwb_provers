@@ -1,4 +1,4 @@
-# Recently added [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
+# Recently added: [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
 
 * **gwcref** is the implementation of a calculus for the Gödel
   modal logic over witnessed crisp models **GWc**.
