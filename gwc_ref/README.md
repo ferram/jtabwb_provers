@@ -58,7 +58,7 @@ Examples of formulas:
 ~!~~a -> #~a
 ```
 
-Note that `~A` is an abbreviation for  `A => false`, `A <=> B` is an abbreviation for  `(A => B) & (B => A)'.
+Note that `~A` is an abbreviation for  `A => false`, `A <=> B` is an abbreviation for  `(A => B) & (B => A)`.
 
 
 # JTabWb format
