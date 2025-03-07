@@ -7,7 +7,7 @@ java -jar gwcref.jar -i             ## use the -i option to read the formula fro
 java -jar gwcref.jar file           ## the file must specify the formula in the JTabWb format    (see the syntax below)
 ```
 
-The  [examples](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref/examples) directory contains some problems in the JTabWb format.
+The directory   [examples](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref/examples)  contains some problems in the JTabWb format.
 For instance, the command
 
 ```
