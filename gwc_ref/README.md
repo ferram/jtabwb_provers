@@ -3,24 +3,28 @@
 To exec proof search with the **GwcRef** prover:
 
 ```
-java -jar gwcref.jar -i             ## use the -i option to read the formula from standard input
-java -jar gwcref.jar file           ## the file must specify the formula in the JTabWb format
+java -jar gwcref.jar -i             ## use the -i option to read the formula from standard input (see the syntax below)
+java -jar gwcref.jar file           ## the file must specify the formula in the JTabWb format    (see the syntax below)
 ```
 
 The **examples** directory contains some problems in the JTabWb format.
-
-Example:
+For instance, the command
 
 ```
-java -jar gwcref.jar examples/gwc-axiom-KBox.jtabwb
+java -jar gwcref.jar examples/gwc-axiom-KBox.jtabwb  
+```
+ searches for a derivation of the formula described in the file `examples/gwc-axiom-KBox.jtabwb`.
+
+To generate a LaTeX file describing the outcome of proof search (a derivation if
+proof search succeeds, an open proof-tree  and a countermodel if proof search fails) add the `-latex` option.
+
+```
+ java -jar gwcref.jar -latex  examples/gwc-axiom-KBox.jtabwb                #  yields a derivation
+ java -jar gwcref.jar -latex  examples/gwc-unprovable-paper-ex1.jtabwb      #  yields an open proof-tree and a countermodel           
 ```
 
-To generate the latex of a proof search (the proof for the successful
-proof searches, the proof-tree and the countermodel for the unsuccessful
-ones) add the -latex option.
 
-
-To print the usage and the details of other options:
+To print the usage and all the available  options:
 
 ```
 java -jar gwcref.jar -h
@@ -29,7 +33,7 @@ java -jar gwcref.jar -h
 
 # Formula syntax
 
-A formula F is specified by the following syntax:
+A formula `F` is specified by the following syntax:
 
 ```
 F := atom        // propositional variable (every C-identifier)
@@ -38,18 +42,28 @@ F := atom        // propositional variable (every C-identifier)
    | F & F       // and
    | F | F       // or
    | F => F      // implication
+   | F -> F      // implication
    | F <=> F     // bi-implication
+   | F <-> F     // bi-implication
    | # F         // box operator
    | !F          // diamond operator
 ```
 
-Note that ~A is translated as (A => false) during proof search (while
-~A is used as abbreviation of (A => false) in LaTeX.
+
+Examples of formulas:
+
+```
+#(A => B) => (#A => #B)
+#(p1 | q) => (#p1 | !q)
+~!~~a -> #~a
+```
+
+Note that `~A` is an abbreviation for  `A => false`, `A <=> B` is an abbreviation for  `(A => B) & (B => A)'.
 
 
 # JTabWb format
 
-The problem is specified in a file with the following structure:
+A problem can be specified in a file having the following structure:
 
 ```
 %------------------------
@@ -60,7 +74,11 @@ FORMULA
 %------------------------
 ```
 
-where:
-- formula_name is a string specifying the problem name;
-- status is provable or unprovable;
-- FORMULA specify a formula with the syntax described above.
+
+
+- `problem_name` is the name of the problem (used to generate the output file names);
+- `status` is `provable` or `unprovable`;
+- `FORMULA` specifies a formula using the above syntax.
+
+For exemplifications, see the files with extension `.jtabwb` in the directory `examples`.
+
