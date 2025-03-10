@@ -30,6 +30,17 @@ To print the usage and all the available  options:
 java -jar gwcref.jar -h
 ```
 
+**Note**
+
+If the text in the pdf file exceeds the page width, open the tex file and change the parameter of 
+`\pdfpagewidth`. For instance, you can set: 
+
+```
+\pdfpagewidth 200in %% MAX WIDTH
+```
+
+Now the text in the pdf is very tiny and must be magnified.
+
 
 # Formula syntax
 
