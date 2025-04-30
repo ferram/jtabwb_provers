@@ -3,8 +3,8 @@
 To exec proof search with the **gbuICK4** prover:
 
 ```
-java -jar ick4gbu.jar -i             ## use the -i option to read the formula from standard input (see the syntax below)
-java -jar ick4gbu.jar file           ## the file must specify the formula in the JTabWb format    (see the syntax below)
+java -jar ick4gbu.jar -i     # use the -i option to read the formula from standard input (see the syntax below)
+java -jar ick4gbu.jar file   # the file must specify the formula in the JTabWb format    (see the syntax below)
 ```
 
 The directory   [examples](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4/examples)  contains some problems in the JTabWb format.
@@ -20,8 +20,8 @@ To generate a LaTeX file describing the outcome of proof search (a derivation if
 proof search succeeds or all the proof-trees if proof search fails) add the `-latex` option.
 
 ```
-  java -jar ick4gbu.jar -latex examples/ick4_axiom_c_completeness.jtabwb        #  yields a derivation
-  java -jar ick4gbu.jar -latex examples/ick4_unprovable_godel_lob_axiom.jtabwb  #  yields all the open proof-trees           
+java -jar ick4gbu.jar -latex examples/ick4_axiom_c_completeness.jtabwb        #  yields a derivation
+java -jar ick4gbu.jar -latex examples/ick4_unprovable_godel_lob_axiom.jtabwb  #  yields all the open proof-trees           
 ```
 
 Executing the prover with the `-p rbuICK4` option, the prover searches
@@ -31,7 +31,7 @@ counter model, e.g.,
 
 
 ```
-  java -jar ick4gbu.jar -p rbuICK4  -model examples/ick4_unprovable_godel_lob_axiom.jtabwb #  yields the counter model
+java -jar ick4gbu.jar -p rbuICK4 -model examples/ick4_unprovable_godel_lob_axiom.jtabwb #  yields the counter model
 ```
 
 
