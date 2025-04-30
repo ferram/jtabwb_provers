@@ -48,7 +48,7 @@ If the text in the pdf file exceeds the page width, open the tex file and change
 Now the text in the pdf is very tiny and must be magnified.
 
 
-Use
+
 ```
 java -jar ick4gbuICK4.jar -h
 ```
