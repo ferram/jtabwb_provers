@@ -76,7 +76,7 @@ Examples of formulas:
 ```
 #(A => B) => (#A => #B)
 #(p1 | q) => (#p1 | q)
-~!~~a -> #~a
+~#~#~a -> #~a
 ```
 
 Note that `~A` is an abbreviation for  `A => false`, `A <=> B` is an abbreviation for  `(A => B) & (B => A)`.
@@ -101,6 +101,5 @@ FORMULA
 - `status` is `provable` or `unprovable`;
 - `FORMULA` specifies a formula using the above syntax.
 
-For exemplifications, see the files with extension `.jtabwb` in the directory
-[examples](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref/examples). 
+For exemplifications, see the files with extension `.jtabwb` in the examples directory. 
 
