@@ -1,4 +1,4 @@
-# Recently added: [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4)
+# Recently added: [gbuICK4](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4)
 
 * **gbuICK4** is the implementation of a calculus for the minimal
   coreflection logic **iCK4**, an intuitionistic modal logic with the
