@@ -14,20 +14,17 @@ For instance, the command
 java -jar ick4gbu.jar file examples/ick4_axiom_c_completeness.jtabwb  
 ```
 
-searches for a derivation of the formula described in the file `examples/gwc-axiom-KBox.jtabwb	`.
+searches for a derivation of the formula described in the file `examples/ick4_axiom_c_completeness.jtabwb`.
 
 To generate a LaTeX file describing the outcome of proof search (a derivation if
-proof search succeeds or all the proof-trees if proof search fails) add the `-latex` option.
+proof search succeeds or all the failed proof-trees otherwise) add the `-latex` option.
 
 ```
 java -jar ick4gbu.jar -latex examples/ick4_axiom_c_completeness.jtabwb        #  yields a derivation
 java -jar ick4gbu.jar -latex examples/ick4_unprovable_godel_lob_axiom.jtabwb  #  yields all the open proof-trees           
 ```
 
-Executing the prover with the `-p rbuICK4` option, the prover searches
-for a proof in the refutation calculus. In this case, ading the
-`-model` option the prover generates the LaTeX of the generated
-counter model, e.g.,
+Executing `ick4gbu`  with the `-p rbuICK4` option, the prover searches for a proof in the refutation calculus. In this case, adding the `-model` option the prover, for a successful proof search, output the LaTeX of the generated countermodel, e.g.,
 
 
 ```
