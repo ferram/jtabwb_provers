@@ -24,7 +24,7 @@ java -jar ick4gbu.jar -latex examples/ick4_axiom_c_completeness.jtabwb        # 
 java -jar ick4gbu.jar -latex examples/ick4_unprovable_godel_lob_axiom.jtabwb  #  yields all the open proof-trees           
 ```
 
-Executing `ick4gbu`  with the `-p rbuICK4` option, the prover searches for a proof in the refutation calculus. In this case, adding the `-model` option the prover, for a successful proof search, output the LaTeX of the generated countermodel, e.g.,
+Executing `ick4gbu`  with the `-p rbuICK4` option, the prover searches for a proof in the refutation calculus. In this case, adding the `-model` option the prover, for a successful proof search, saves the LaTeX of the generated countermodel, e.g.,
 
 
 ```
