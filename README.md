@@ -5,6 +5,9 @@
   normality axiom and the coreflection principle.
 
 
+# Recently added: [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
+
+
 # A collection of JTabWb provers
 
 
