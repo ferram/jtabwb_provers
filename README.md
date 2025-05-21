@@ -1,9 +1,3 @@
-# Recently added: [gbuICK4](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4)
-
-* **gbuICK4** is the implementation of a calculus for the minimal
-  coreflection logic **iCK4**, an intuitionistic modal logic with the
-  normality axiom and the coreflection principle.
-
 
 # Recently added: [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
 
@@ -11,6 +5,13 @@
 * **gwcref** is the implementation of the logic **GWC**, which is
   semantically characterized by witnessed Gödel crisp Kripke
   models.
+
+
+# Recently added: [gbuICK4](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4)
+
+* **gbuICK4** is the implementation of a calculus for the minimal
+  coreflection logic **iCK4**, an intuitionistic modal logic with the
+  normality axiom and the coreflection principle.
 
 
 # A collection of JTabWb provers
