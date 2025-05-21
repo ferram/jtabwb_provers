@@ -8,6 +8,11 @@
 # Recently added: [gwcref](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref)
 
 
+* **gwcref** is the implementation of the logic **GWC**, which is
+  semantically characterized by witnessed Gödel crisp Kripke
+  models.
+
+
 # A collection of JTabWb provers
 
 
