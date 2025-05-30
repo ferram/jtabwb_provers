@@ -15,9 +15,9 @@
   base of the implementation is presented in:
 
   >M. Ferrari, C. Fiorentini, P. Giardini. Proof search and
-  >countermodel construction for $\iCK$, published in Proceedings of
-  >*CILC 2025: 40th Italian Conference on Computational Logic*,
-  >to appear, 2025.
+  >countermodel construction for **iCK4**, published in Proceedings of
+  >*CILC 2025: 40th Italian Conference on Computational Logic*, to
+  >appear, 2025.
 
 # A collection of JTabWb provers
 
