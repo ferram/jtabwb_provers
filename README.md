@@ -11,8 +11,13 @@
 
 * **gbuICK4** is the implementation of a calculus for the minimal
   coreflection logic **iCK4**, an intuitionistic modal logic with the
-  normality axiom and the coreflection principle.
+  normality axiom and the coreflection principle. The calculus at the
+  base of the implementation is presented in:
 
+  >M. Ferrari, C. Fiorentini, P. Giardini. Proof search and
+  >countermodel construction for $\iCK$, published in Proceedings of
+  >*CILC 2025: 40th Italian Conference on Computational Logic*,
+  >to appear, 2025.
 
 # A collection of JTabWb provers
 
