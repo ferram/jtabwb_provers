@@ -6,6 +6,9 @@
   semantically characterized by witnessed Gödel crisp Kripke
   models.
 
+  >M. Ferrari, C. Fiorentini, R.O. Rodriguez.  A Gödel modal logic
+  >over witnessed crisp models. *TABLEAUX 2025*, to appear, 2025.
+
 
 # Recently added: [gbuICK4](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4)
 
