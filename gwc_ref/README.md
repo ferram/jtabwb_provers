@@ -53,7 +53,7 @@ If the text in the pdf file exceeds the page width, open the tex file and change
 Now the text in the pdf is very tiny and must be magnified.
 
 
-# Formula syntax
+## Formula syntax
 
 A formula `F` is specified by the following syntax:
 
@@ -83,7 +83,7 @@ Examples of formulas:
 Note that `~A` is an abbreviation for  `A => false`, `A <=> B` is an abbreviation for  `(A => B) & (B => A)`.
 
 
-# JTabWb format
+## JTabWb format
 
 A problem can be specified in a file having the following structure:
 
