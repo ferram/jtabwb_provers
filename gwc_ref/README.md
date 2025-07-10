@@ -1,4 +1,4 @@
-# A refutation calculus for the Gödel modal logic over witnessed crisp models
+# A refutation calculus for the Gödel modal logic over witnessed crisp models (GWC)
 
 
 **gwcref** is the implementation of the logic **GWC**, which is
