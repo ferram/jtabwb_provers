@@ -2,8 +2,8 @@
 
 
 **gwcref** is the implementation of the logic **GWC**, which is
-semantically characterized by witnessed Gödel crisp Kripke
-models.
+semantically characterized by witnessed Gödel crisp Kripke models. The
+calculus at the base of the implementation is presented in:
 
 >M. Ferrari, C. Fiorentini, R.O. Rodriguez.  A Gödel modal logic
 >over witnessed crisp models. *TABLEAUX 2025*, to appear, 2025.
