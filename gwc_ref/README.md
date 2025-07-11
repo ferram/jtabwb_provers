@@ -1,5 +1,5 @@
 # Implementation of a refutation calculus for GWC - Gödel modal logic
-  over witnessed crisp models
+over witnessed crisp models
 
 
 **gwcref** is the implementation of the logic **GWC**, which is
