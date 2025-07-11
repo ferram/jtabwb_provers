@@ -1,4 +1,5 @@
-# Implementation of a refutation calculus for the GWC - Gödel modal logic over witnessed crisp models
+# Implementation of a refutation calculus for GWC - Gödel modal logic
+  over witnessed crisp models
 
 
 **gwcref** is the implementation of the logic **GWC**, which is
