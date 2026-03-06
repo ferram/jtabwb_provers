@@ -1,4 +1,4 @@
-# Implementation of a refutation calculus for the Gödel modal logic over witnessed crisp models (GWC)
+# Implementation of a refutation calculus for the Gödel modal logic over witnessed Kripke models (GW)
 
 
 **gwref** is the implementation of the logic **GW**, which is
