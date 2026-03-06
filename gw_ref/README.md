@@ -1,8 +1,8 @@
 # Implementation of a refutation calculus for the Gödel modal logic over witnessed crisp models (GWC)
 
 
-**gwref** is the implementation of the logic **GWC**, which is
-semantically characterized by witnessed Gödel crisp Kripke models. The
+**gwref** is the implementation of the logic **GW**, which is
+semantically characterized by **witnessed Gödel Kripke models**. The
 calculus at the base of the implementation is presented in:
 
 >M. Ferrari, C. Fiorentini, P. Giardini, R.O. Rodriguez.  A Gödel Modal Logic
