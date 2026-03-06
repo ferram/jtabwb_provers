@@ -1,44 +1,44 @@
 # Implementation of a refutation calculus for the Gödel modal logic over witnessed crisp models (GWC)
 
 
-**gwcref** is the implementation of the logic **GWC**, which is
+**gwref** is the implementation of the logic **GWC**, which is
 semantically characterized by witnessed Gödel crisp Kripke models. The
 calculus at the base of the implementation is presented in:
 
->M. Ferrari, C. Fiorentini, R.O. Rodriguez.  A Gödel modal logic
->over witnessed crisp models. *TABLEAUX 2025*, to appear.
+>M. Ferrari, C. Fiorentini, P. Giardini, R.O. Rodriguez.  A Gödel Modal Logic
+>Over Witnessed  Models. Submitted to *AiML 2026*.
 
 
 ## Usage examples
 
-To exec proof search with the **GwcRef** prover:
+To exec proof search with the **GwRef** prover:
 
 ```
-java -jar gwcref.jar -i             ## use the -i option to read the formula from standard input (see the syntax below)
-java -jar gwcref.jar file           ## the file must specify the formula in the JTabWb format    (see the syntax below)
+java -jar gwref.jar -i             ## use the -i option to read the formula from standard input (see the syntax below)
+java -jar gwref.jar file           ## the file must specify the formula in the JTabWb format    (see the syntax below)
 ```
 
-The directory   [examples](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref/examples)  contains some problems in the JTabWb format.
+The directory   [examples](https://github.com/ferram/jtabwb_provers/tree/master/gw_ref/examples)  contains some problems in the JTabWb format.
 For instance, the command
 
 ```
-java -jar gwcref.jar examples/gwc-axiom-KBox.jtabwb  
+java -jar gwref.jar examples/gw-axiom-KBox.jtabwb  
 ```
- searches for a derivation of the formula described in the file `examples/gwc-axiom-KBox.jtabwb`.
+ searches for a derivation of the formula described in the file `examples/gw-axiom-KBox.jtabwb`.
 
 To generate a LaTeX file describing the outcome of proof search (a derivation if
 proof search succeeds, an open proof-tree  and a countermodel if proof search fails) add the `-latex` option.
 
 ```
- java -jar gwcref.jar -latex  examples/gwc-axiom-KBox.jtabwb                #  yields a derivation
- java -jar gwcref.jar -latex  examples/gwc-unprovable-paper-ex1.jtabwb      #  yields an open proof-tree and a countermodel           
+ java -jar gwref.jar -latex  examples/gw-axiom-KBox.jtabwb                #  yields a derivation
+ java -jar gwref.jar -latex  examples/??      #  yields an open proof-tree and a countermodel           
 ```
 
 
 To print the usage and all the available  options:
 
 ```
-java -jar gwcref.jar -h
+java -jar gwref.jar -h
 ```
 
 **Note**
