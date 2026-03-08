@@ -98,7 +98,7 @@ FORMULA
 
 
 - `problem_name` is the name of the problem (used to generate the output file names);
-- `status` is `provable`, `unprovable` or `unchecked';
+- `status` is `provable`, `unprovable` or `unchecked`;
 - `FORMULA` specifies a formula using the above syntax.
 
 For exemplifications, see the files with extension `.jtabwb` in the directory
