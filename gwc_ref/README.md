@@ -5,6 +5,13 @@
 semantically characterized by witnessed Gödel crisp Kripke models. The
 calculus at the base of the implementation is presented in:
 
+>M. Ferrari, C. Fiorentini & R. O. Rodriguez (2025): A Gödel Modal
+> Logic over Witnessed Crisp Models. In G.L. Pozzato & T. Uustalu,
+> editors: TABLEAUX 2025, LNAI 15980, Springer Cham, pp. 141–160,
+> `[doi] <http://dx.doi.org/10.1007/978-3-032-06085-3_8>`__.
+
+[doi](http://dx.doi.org/10.1007/978-3-032-06085-3_8)
+
 > M. Ferrari, C. Fiorentini & R. O. Rodriguez (2025): A Gödel Modal
 > Logic over Witnessed Crisp Models. In G.L. Pozzato & T. Uustalu,
 > editors: TABLEAUX 2025, LNAI 15980, Springer Cham, pp. 141–160.
@@ -26,7 +33,7 @@ java -jar gwcref.jar examples/gwc-axiom-KBox.jtabwb
 ```
  searches for a derivation of the formula described in the file `examples/gwc-axiom-KBox.jtabwb`.
 
-To generate a LaTeX file describing the outcome of proof search (a derivation if
+To generate a LaTeX file describing the gioutcome of proof search (a derivation if
 proof search succeeds, an open proof-tree  and a countermodel if proof search fails) add the `-latex` option.
 
 ```
