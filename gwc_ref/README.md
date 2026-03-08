@@ -5,9 +5,9 @@
 semantically characterized by witnessed Gödel crisp Kripke models. The
 calculus at the base of the implementation is presented in:
 
->M. Ferrari, C. Fiorentini, R.O. Rodriguez.  A Gödel modal logic
->over witnessed crisp models. *TABLEAUX 2025*, to appear.
-
+> M. Ferrari, C. Fiorentini & R. O. Rodriguez (2025): A Gödel Modal
+> Logic over Witnessed Crisp Models. In G.L. Pozzato & T. Uustalu,
+> editors: TABLEAUX 2025, LNAI 15980, Springer Cham, pp. 141–160.
 
 ## Usage examples
 
