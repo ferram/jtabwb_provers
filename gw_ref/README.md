@@ -31,9 +31,8 @@ proof search succeeds, an open proof-tree  and a countermodel if proof search fa
 
 ```
  java -jar gwref.jar -latex  examples/gw-axiom-KBox.jtabwb                #  yields a derivation
- java -jar gwref.jar -latex  examples/??      #  yields an open proof-tree and a countermodel           
+ java -jar gwref.jar -latex  examples/gw-unprovable-axiom-CRISP.jtabwb    #  yields an open proof-tree and a countermodel           
 ```
-
 
 To print the usage and all the available  options:
 
@@ -99,9 +98,9 @@ FORMULA
 
 
 - `problem_name` is the name of the problem (used to generate the output file names);
-- `status` is `provable` or `unprovable`;
+- `status` is `provable`, `unprovable` or `unchecked';
 - `FORMULA` specifies a formula using the above syntax.
 
 For exemplifications, see the files with extension `.jtabwb` in the directory
-[examples](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref/examples). 
+[examples](https://github.com/ferram/jtabwb_provers/tree/master/gw_ref/examples). 
 
