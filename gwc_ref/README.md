@@ -10,9 +10,6 @@ calculus at the base of the implementation is presented in:
 > editors: TABLEAUX 2025, LNAI 15980, Springer Cham, pp. 141–160,
 > [DOI](http://dx.doi.org/10.1007/978-3-032-06085-3_8).
 
-> M. Ferrari, C. Fiorentini & R. O. Rodriguez (2025): A Gödel Modal
-> Logic over Witnessed Crisp Models. In G.L. Pozzato & T. Uustalu,
-> editors: TABLEAUX 2025, LNAI 15980, Springer Cham, pp. 141–160.
 
 ## Usage examples
 
