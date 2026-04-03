@@ -9,17 +9,16 @@
   >over witnessed crisp models. *TABLEAUX 2025*, to appear, 2025.
 
 
-# Recently added: [gbuICK4](https://github.com/ferram/jtabwb_provers/tree/master/ick4_gbuICK4)
+# Recently added: [eick4](https://github.com/ferram/jtabwb_provers/tree/master/eick4)
 
-* **gbuICK4** is the implementation of a calculus for the **minimal
+* **eick4** is the implementation of a calculus for the **minimal
   coreflection logic iCK4**, an intuitionistic modal logic with the
   normality axiom and the coreflection principle. The calculus at the
   base of the implementation is presented in:
 
-  >M. Ferrari, C. Fiorentini, P. Giardini. Proof search and
-  >countermodel construction for **iCK4**, published in Proceedings of
-  >*CILC 2025: 40th Italian Conference on Computational Logic*, to
-  >appear, 2025.
+  >M. Ferrari, C. Fiorentini, P. Giardini. A terminating sequent
+  >calculus for the minimal coreflection logic **iCK4**. Sumitted to
+  >the special issue for *CILC 2025*.
 
 # A collection of JTabWb provers
 
