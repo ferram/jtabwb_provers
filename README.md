@@ -8,7 +8,7 @@
   >M. Ferrari, C. Fiorentini, R.O. Rodriguez.  A Gödel modal logic
   >over witnessed crisp models. In G.L. Pozzato & T. Uustalu, editors:
   >*TABLEAUX 2025*, LNAI 15980, Springer Cham, pp. 141–160, 2025.
-  >[http://10.1007/978-3-032-06085-3_8].
+  >[http://dx.doi.org/10.1007/978-3-032-06085-3_8].
 
 
 
