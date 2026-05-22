@@ -1,5 +1,4 @@
-# Implementation of a calculus for the **minimal coreflection logic
-  iCK4**
+# Implementation of a calculus for the **minimal coreflection logic iCK4**
 
 
 * **eick4** is the implementation of a calculus for the **minimal
