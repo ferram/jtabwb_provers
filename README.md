@@ -20,10 +20,6 @@
   >*TABLEAUX 2025*, LNAI 15980, Springer Cham, pp. 141–160, 2025.
   >[http://dx.doi.org/10.1007/978-3-032-06085-3_8].
 
-
-
-# Recently added: 
-
 * [**eick4**](https://github.com/ferram/jtabwb_provers/tree/master/eick4)
   is the implementation of a calculus for the **minimal coreflection
   logic iCK4**, an intuitionistic modal logic with the normality axiom
