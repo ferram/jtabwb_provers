@@ -1,3 +1,16 @@
+# Implementation of a refutation calculus for the Gödel modal logic over witnessed Kripke models (GW)
+
+
+* **eick4** is the implementation of a calculus for the **minimal
+  coreflection logic iCK4**, an intuitionistic modal logic with the
+  normality axiom and the coreflection principle. The calculus at the
+  base of the implementation is presented in:
+
+  >M. Ferrari, C. Fiorentini, P. Giardini. A terminating sequent
+  >calculus for the minimal coreflection logic **iCK4**. Sumitted to
+  >the special issue for *CILC 2025*.
+
+
 # Usage examples
 
 To exec proof search with the **gbuICK4** prover:
