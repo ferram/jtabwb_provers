@@ -22,12 +22,13 @@
 
 
 
-# Recently added: [eick4](https://github.com/ferram/jtabwb_provers/tree/master/eick4)
+# Recently added: 
 
-* **eick4** is the implementation of a calculus for the **minimal
-  coreflection logic iCK4**, an intuitionistic modal logic with the
-  normality axiom and the coreflection principle. The calculus at the
-  base of the implementation is presented in:
+* [**eick4**](https://github.com/ferram/jtabwb_provers/tree/master/eick4)
+  is the implementation of a calculus for the **minimal coreflection
+  logic iCK4**, an intuitionistic modal logic with the normality axiom
+  and the coreflection principle. The calculus at the base of the
+  implementation is presented in:
 
   >M. Ferrari, C. Fiorentini, P. Giardini. A terminating sequent
   >calculus for the minimal coreflection logic **iCK4**. Sumitted to
