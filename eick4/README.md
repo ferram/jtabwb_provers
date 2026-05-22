@@ -1,4 +1,5 @@
-# Implementation of a refutation calculus for the Gödel modal logic over witnessed Kripke models (GW)
+# Implementation of a calculus for the **minimal coreflection logic
+  iCK4**
 
 
 * **eick4** is the implementation of a calculus for the **minimal
