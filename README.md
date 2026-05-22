@@ -3,8 +3,9 @@
 # Recently added: [gwref](https://github.com/ferram/jtabwb_provers/tree/master/gw_ref)
 
 
-* **gwref** is the implementation of the refutation calculus for the
-  **A Gödel Modal Logic Over Witnessed Models (GW)** presented in:
+* [**gwref**](https://github.com/ferram/jtabwb_provers/tree/master/gw_ref)
+  is the implementation of the refutation calculus for the **A Gödel
+  Modal Logic Over Witnessed Models (GW)** presented in:
 
   >M. Ferrari, C. Fiorentini, Paolo Giardini, R.O. Rodriguez.  A Gödel modal logic
   >over witnessed models. Submitted to AiML 2026.
