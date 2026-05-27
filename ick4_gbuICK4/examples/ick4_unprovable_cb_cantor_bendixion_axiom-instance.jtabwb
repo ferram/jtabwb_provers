@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : cb_cantor_bendixion_axiom_instance
-% Status   : unprovable
-%------------------------
-####p -> ((#q -> ##p) | #q)
-%------------------------
