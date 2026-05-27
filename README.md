@@ -35,9 +35,9 @@
 
 ## Classical Propositional Logic (cpl)
 
-* **clnat** is the implementation of the proof-search procedure for the
-  natural deduction calculus for Classical Propositional Logic
-  presented in
+* [**clnat**](https://github.com/ferram/jtabwb_provers/tree/master/cpl_clnat)
+  is the implementation of the proof-search procedure for the natural
+  deduction calculus for Classical Propositional Logic presented in
 
   >M. Ferrari and C. Fiorentini. Proof-search in natural deduction
   >calculus for classical propositional logic. In H. De Nivelle,
