@@ -162,6 +162,17 @@
 
 ## Intuitionistic Modal Logics
 
+* [**eick4**](https://github.com/ferram/jtabwb_provers/tree/master/eick4)
+  is the implementation of a calculus for the **minimal coreflection
+  logic iCK4**, an intuitionistic modal logic with the normality axiom
+  and the coreflection principle. The calculus at the base of the
+  implementation is presented in:
+
+  >M. Ferrari, C. Fiorentini, P. Giardini. A terminating sequent
+  >calculus for the minimal coreflection logic **iCK4**. Sumitted to
+  >the special issue for *CILC 2025*.
+
+
 * [**gbuSL**](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbuSL)
   is the implementation of the calculus for **Intuitionistic Strong
   Löb Logic** **iSL** presented in
@@ -174,6 +185,27 @@
 
   The prover also provide an implementation of the refutation calculus
   **Rbu** for **iSL**.
+
+
+
+## Gödel Modal Logics
+* [**gwref**](https://github.com/ferram/jtabwb_provers/tree/master/gw_ref)
+  is the implementation of the refutation calculus for the **A Gödel
+  Modal Logic Over Witnessed Models (GW)** presented in:
+
+  >M. Ferrari, C. Fiorentini, Paolo Giardini, R.O. Rodriguez.  A Gödel modal logic
+  >over witnessed models. Submitted to AiML 2026.
+
+
+* [**gwcref**](https://github.com/ferram/jtabwb_provers/tree/master/gwc_ref) is the implementation
+  of the refutation calculus for the
+  **Gödel modal logic over witnessed crisp models (GWC)** presented in:
+
+  >M. Ferrari, C. Fiorentini, R.O. Rodriguez.  A Gödel modal logic
+  >over witnessed crisp models. In G.L. Pozzato & T. Uustalu, editors:
+  >*TABLEAUX 2025*, LNAI 15980, Springer Cham, pp. 141–160, 2025.
+  >[http://dx.doi.org/10.1007/978-3-032-06085-3_8].
+
 
 
 ## S4 (s4)
