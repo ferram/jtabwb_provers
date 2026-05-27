@@ -160,10 +160,11 @@
   the natural deduction calculus for IPL.
 
 
-## Intuitionistic Strong Löb Logic (**iSL**)
+## Intuitionistic Modal Logics
 
-* **gbuSL** is the implementation of the calculus for **Intuitionistic
-    Strong Löb Logic** **iSL** presented in
+* [**gbuSL**](https://github.com/ferram/jtabwb_provers/tree/master/isl_gbuSL)
+  is the implementation of the calculus for **Intuitionistic Strong
+  Löb Logic** **iSL** presented in
 
   > C. Fiorentini, M. Ferrari. A Terminating Sequent Calculus for
   > Intuitionistic Strong Löb Logic with the Subformula Property. In
@@ -178,8 +179,9 @@
 ## S4 (s4)
 
 
-* **s4tab** is the implementation of the proof-search procedure for
-  modal logic S4 based on the tableau calculus presented in
+* [**s4tab**](https://github.com/ferram/jtabwb_provers/tree/master/s4_s4tab]
+  is the implementation of the proof-search procedure for modal logic
+  S4 based on the tableau calculus presented in
 
   > P. Miglioli and U. Moscato and M. Ornaghi. Refutation systems for
   >  propositional modal logics, *TABLEAUX 1995*, P. Baumgartner and
