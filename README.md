@@ -179,7 +179,7 @@
 ## S4 (s4)
 
 
-* [**s4tab**](https://github.com/ferram/jtabwb_provers/tree/master/s4_s4tab]
+* [**s4tab**](https://github.com/ferram/jtabwb_provers/tree/master/s4_s4tab)
   is the implementation of the proof-search procedure for modal logic
   S4 based on the tableau calculus presented in
 
