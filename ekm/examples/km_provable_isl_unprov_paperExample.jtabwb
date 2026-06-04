@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : km_provable_isl_unprov_paperExample
-% Status   : provable
-%------------------------
-( (p -> q) & # s & ##~p &  ###~q) -> (~(p & ~s) | ( ~~q -> #(~p | #~~p)))
-

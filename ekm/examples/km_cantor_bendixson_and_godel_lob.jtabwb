@@ -1,6 +1,0 @@
-%------------------------
-% Formula  : cantor_bendixson_and_goedel_lob
-% Status   : provable
-%------------------------
-(#p -> ((q -> p) | q)) & (#(#p -> p) -> #p)
-%------------------------
