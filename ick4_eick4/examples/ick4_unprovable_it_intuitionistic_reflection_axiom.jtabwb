@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : it_intuitionistic_reflection_axiom
+% Status   : unprovable
+%------------------------
+#p -> ~~p
+%------------------------
