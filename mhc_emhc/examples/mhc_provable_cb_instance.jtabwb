@@ -1,0 +1,6 @@
+%------------------------
+% Formula  : cb_cantor_bendixion_axiom_instance
+% Status   : provable
+%------------------------
+##p -> ((#(q | r) -> #p) | #(q|r))
+%------------------------
