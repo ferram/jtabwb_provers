@@ -2,6 +2,11 @@
 
 # Recently added
 
+* [**emhc**](https://github.com/ferram/jtabwb_provers/tree/master/mhc_emhc)
+  is a prover for the intuitionistic modal logic **MHC**. It generates
+  LaTeX proofs for provable formulas and counter-models for unprovable
+  formulas.
+
 
 * [**gwref**](https://github.com/ferram/jtabwb_provers/tree/master/gw_ref)
   is the implementation of the refutation calculus for the **A Gödel
@@ -161,6 +166,11 @@
 
 
 ## Intuitionistic Modal Logics
+
+* [**emhc**](https://github.com/ferram/jtabwb_provers/tree/master/mhc_emhc)
+  is a prover for the intuitionistic modal logic **MHC**. It generates
+  LaTeX proofs for provable formulas and counter-models for unprovable
+  formulas.
 
 * [**eick4**](https://github.com/ferram/jtabwb_provers/tree/master/ick4_eick4)
   is the implementation of a calculus for the **minimal coreflection
