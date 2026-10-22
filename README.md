@@ -3,7 +3,7 @@
 # Recently added
 
 * [**emhc**](https://github.com/ferram/jtabwb_provers/tree/master/mhc_emhc)
-  is a prover for the intuitionistic modal logic **MHC**. It generates
+  is a prover for the **Modalized Heyting Calculus MHC**. It generates
   LaTeX proofs for provable formulas and counter-models for unprovable
   formulas.
 
